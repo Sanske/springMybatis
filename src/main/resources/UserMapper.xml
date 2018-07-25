@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mapper nameSpace="cn.sanske.mapper.UserMapper">
+ <select id ="getUserById" resultType="cn.sanske.bean.User">
+    select user_id, name,user_mobile from nu_user where user_id = ?
+ </select>
+
+</mapper>
